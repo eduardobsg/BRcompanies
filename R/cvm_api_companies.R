@@ -24,7 +24,7 @@ download_reports <- function(){
 
   # scrape each url, getting its html info
   for (url in url){
-    txt <- GET(url)
+    txt <- httr::GET(url)
     html <- read_html(txt)
     # what matters is the content of the 'href' attribute
     links <- html %>% html_nodes("a") %>% html_attr("href")
