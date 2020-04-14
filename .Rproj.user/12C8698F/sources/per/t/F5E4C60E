@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "667064474",
+    "hash" : "1483263146",
     "id" : "F5E4C60E",
-    "lastKnownWriteTime" : 1586830251,
-    "last_content_update" : 1586830251528,
+    "lastKnownWriteTime" : 1586832876,
+    "last_content_update" : 1586832876595,
     "path" : "D:/rprojects/BRcompanies/R/cvm_api_companies.R",
     "project_path" : "R/cvm_api_companies.R",
     "properties" : {
-        "cursorPosition" : "4,17",
-        "scrollLine" : "0"
+        "cursorPosition" : "43,73",
+        "scrollLine" : "32"
     },
     "read_only" : false,
     "read_only_alternatives" : [

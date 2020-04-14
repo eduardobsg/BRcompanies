@@ -41,18 +41,22 @@ download_reports <- function(){
     # get only the first characteres
     links2 <- substr(links2, 1,7)
     # remove rows that do not contain 'links2'
-    links = dplyr::filter(links, grepl(links2, links))
+    links <- dplyr::filter(links, grepl(links2, links, ignore.case = TRUE))
 
     # construct the full url
     full_url = paste0(url, links$links)
 
-    # the loop goes through each link, verifies if the file is in the folder and if it is not
-    # then it begins the download
+    # the loop goes through each link, verifies if the file is in the
+    # folder and if it is not, then it begins the download
+    cache <- list.files('downloads/')
     for (i in 1:length(full_url)){
+      if (basename(full_url[i]) %in% cache){next
+        } else {
       print(basename(full_url[i]))
       url = full_url[i]
       download.file(url, destfile = paste0("downloads/",basename(full_url[i])),
                     method = "libcurl", mode = "wb")
+      }
     }
   }
 }
@@ -73,6 +77,6 @@ join_files <- function(){
   for (file in files){
     temp <- read.csv2(paste0('sheets/', file))
     dfp <- rbindlist(list(dfp, temp), fill = TRUE)
-    dfp
   }
+  dfp
 }
