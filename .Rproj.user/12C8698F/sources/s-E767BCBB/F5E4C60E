@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "667064474",
     "id" : "F5E4C60E",
-    "lastKnownWriteTime" : 1586829584,
-    "last_content_update" : 1586829584,
+    "lastKnownWriteTime" : 1586830251,
+    "last_content_update" : 1586830251528,
     "path" : "D:/rprojects/BRcompanies/R/cvm_api_companies.R",
     "project_path" : "R/cvm_api_companies.R",
     "properties" : {
-        "cursorPosition" : "0,0",
+        "cursorPosition" : "4,17",
         "scrollLine" : "0"
     },
     "read_only" : false,

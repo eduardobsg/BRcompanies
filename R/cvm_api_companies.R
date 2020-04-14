@@ -2,6 +2,7 @@ download_reports <- function(){
   require(rvest)
   require(httr)
   require(dplyr)
+  require(stringr)
   # list of individual urls
   url_DRE <- 'http://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/DFP/DRE/DADOS/'
   url_DMPL <- 'http://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/DFP/DMPL/DADOS/'
