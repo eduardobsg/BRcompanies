@@ -4,22 +4,22 @@
     "created" : 1586827059492.000,
     "dirty" : false,
     "encoding" : "UTF-8",
-    "folds" : "59|26|65|0|\n",
-    "hash" : "4025394756",
+    "folds" : "",
+    "hash" : "570676710",
     "id" : "F5E4C60E",
-    "lastKnownWriteTime" : 1586827348,
-    "last_content_update" : 1586827348864,
+    "lastKnownWriteTime" : 1586829222,
+    "last_content_update" : 1586829222535,
     "path" : "D:/rprojects/BRcompanies/R/cvm_api_companies.R",
     "project_path" : "R/cvm_api_companies.R",
     "properties" : {
-        "cursorPosition" : "3,0",
+        "cursorPosition" : "0,0",
         "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
     "relative_order" : 1,
-    "source_on_save" : true,
+    "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"
 }

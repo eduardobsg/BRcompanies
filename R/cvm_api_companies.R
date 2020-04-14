@@ -1,8 +1,7 @@
-library(rvest)
-library(httr)
-library(tidyverse)
-
 download_reports <- function(){
+  require(rvest)
+  require(httr)
+  require(dplyr)
   # list of individual urls
   url_DRE <- 'http://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/DFP/DRE/DADOS/'
   url_DMPL <- 'http://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/DFP/DMPL/DADOS/'
@@ -66,12 +65,13 @@ unzip_files <- function(){
 }
 
 join_files <- function(){
+  require(data.table)
   files <- list.files('sheets/')
   dfp <- NULL
   temp <- NULL
   for (file in files){
     temp <- read.csv2(paste0('sheets/', file))
-    dfp <- data.table::rbindlist(list(dfp, temp), fill = TRUE)
+    dfp <- rbindlist(list(dfp, temp), fill = TRUE)
     dfp
   }
 }

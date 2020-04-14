@@ -1,9 +1,9 @@
 Package: BRcompanies
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Downloads financial reports from CVM
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Raimundo Marciano de Freitas Neto
+Maintainer: Raimundo Marciano de Freitas Neto <raimundomfn@gmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
