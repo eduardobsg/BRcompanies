@@ -1,5 +1,7 @@
 # BRcompanies
- Download files from Brazilian public companies using Comissão de Valores Mobiliários (CVM)'s API
+ Downloads financial reports from Brazilian public companies using Comissão de Valores Mobiliários (CVM)'s API.
+ If you need Governance data, please check the GetDFPData Package (https://github.com/msperlin/GetDFPData).
+ 
 
 To Do List:
 - Ask the user which files he wants to download
@@ -8,5 +10,6 @@ To Do List:
 
 
 ---
-
-Baixa arquivos de companhias brasileiras de capital aberto usando a API da Comissão de Valores Mobiliários (CVM).
+# BRcompanies
+Baixa demonstrações financeiras de companhias brasileiras de capital aberto usando a API da Comissão de Valores Mobiliários (CVM).
+Se você precisa de informações sobre Governança Corporativa, há o pacote GetDFPData (https://github.com/msperlin/GetDFPData).
