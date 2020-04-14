@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586827083954.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2294224921",
+    "id" : "B44AEAED",
+    "lastKnownWriteTime" : 1586827105,
+    "last_content_update" : 1586827105387,
+    "path" : "D:/rprojects/BRcompanies/man/download_reports.Rd",
+    "project_path" : "man/download_reports.Rd",
+    "properties" : {
+        "cursorPosition" : "3,23",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

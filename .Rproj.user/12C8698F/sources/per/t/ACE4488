@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586827143098.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1142531073",
+    "id" : "ACE4488",
+    "lastKnownWriteTime" : 1586827151,
+    "last_content_update" : 1586827151533,
+    "path" : "D:/rprojects/BRcompanies/man/unzip_files.Rd",
+    "project_path" : "man/unzip_files.Rd",
+    "properties" : {
+        "cursorPosition" : "3,18",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}
